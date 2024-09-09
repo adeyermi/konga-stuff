@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:none
+}
+
+
+/* Beginning of header */
+.top-head{
+    width:85%;
+    margin:auto;
+    padding-top:  10px;
+}
+
+.top-head div{
+    height: 17px;
+}
+
+.subhead{
+    background-color:  #ED017F;
+    height: 12vh;
+    margin-top: 20px;
+}
+.subhead a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.subhead a:hover{
+    background-color: white;
+    padding: 16px 20px;
+    margin-top: -15px;
+    color: #ED017F;
+}
+
+.sub-heading{
+    width: 95%;
+    padding: 15px 0;
+    margin: auto;
+}
+
+.sub-heading #logo{
+    width: 8rem;
+    height: 2rem;
+    color: white;
+}
+
+.sub-input{
+   height: 2.4rem;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.sub-input input{
+    width: 40vw;
+    padding: 10px;
+}
+
+.sub-input, input:focus{
+    outline: none;
+}
+
+.sub-input, input ::placeholder{
+    font-size: 12px;
+}
+.sub-input .b{
+    width: 2rem;
+    background-color: #FBA100;
+}
+.sub-heading .cart{
+    height: 2.5rem;
+    width: 7rem;
+    background-color: #2D9E6D;
+    color: white; 
+    border-radius: 5px;
+    font-size: 13px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sub-heading .cart p{
+    margin: auto;
+} 
+.sub-heading .cart i{
+    margin: auto;
+}
+
+.sub-heading .cart div {
+    background-color: white;
+    color: black;
+    width: 15px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+.help{
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    gap: 5px;
+}
+.sub-heading .help .q{
+    background-color:  rgb(247, 197, 223);
+    text-align: center;
+    color: black;
+    width: 20px;
+    margin-top: -1px;
+    height: 20px;
+    font-weight: 1000;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    
+   
+}
+.sub-heading .help i{
+    font-size: 10px;
+    padding: 3px;
+}
+
+.sub-heading .help ul{
+  
+    display: none;
+    background-color:  white;
+    color:black;
+    width: 16vw;
+    padding: 10px 30px;
+    position: absolute;
+    margin-top: 44px;
+    list-style: none;
+    line-height: 30px;
+}
+
+.sub-heading .help:hover ul{
+    display: block;
+}
+
+/* categories */
+
+.categories{
+    background-color: #94004F;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    box-shadow: 0px  2px rgb(255, 245, 245);
+}
+
+.cat ul{
+   margin: auto;
+   list-style: none;
+}
+.cat #all{
+    font-weight: 900;
+}
+
+/* hero */
+
+.hero-sec{
+    padding: 15px;
+    
+}
+
+.hero-sec #carouselExampleIndicators{
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    
+}
+
+.sec2 div{
+    width: 165px;
+    height: 163px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.last-h{
+    margin-top: 25px;
+}
+.h-las{
+    width: 180px;
+    padding: 10px;
+    box-shadow: 3px 3px 6px rgb(218, 217, 217);
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+/* end 0fhero-section */
+
+
+/* Display */
+.display{
+ 
+   
+    width: 100vw;
+}
+
+.deal{
+    margin: auto;
+    width: 96%;
+    background-color: #94004F;
+    color:white;
+    margin-top: 25px;
+    padding: 5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+   
+}
+.deal h2{
+    font-weight: 900;
+    margin-left: 10px;
+}
+.deal a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
+.display-2{
+    width: 100vw;
+}
+.disp{
+   
+    margin: auto;
+    width: 96%;
+    
+}
+.dgrid{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr ;
+    gap: 15px;
+    overflow: hidden;
+  
+}
+.dis{
+    margin-top: 8px;
+    padding: 0px 10px;
+    width: 30vw;
+    height: 24vh;
+    box-shadow: 3px 3px 10px rgb(218, 217, 217);
+    
+
+}
+.dis-word{
+   margin: auto;
+
+}
+.dis div{
+    width: 100px;
+}
+
+.dis img{
+    object-fit: contain;
+}
+
+
+.dis p{
+    font-size: 8px;
+}
+
+.price{
+    margin: auto;
+    gap:3px;
+}
+#price{
+    font-weight: 600;
+    font-size: 11px;
+}
+#ice{
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+#dice{
+    font-size: 6px;
+    border-radius: 8px;
+    padding: 3px;
+    height: 15px;
+    background-color: rgb(245, 180, 180);
+    color:red;
+}
+.save{
+    margin:auto;
+    padding: -5px;
+    color: #0b8f56;
+    font-size: 10px;
+}
+
+/* products */
+
+.product{
+    width: 100vw;
+      margin-top: 20px;
+}
+
+.aprt{
+    width: 90%;
+    margin: auto;
+}
+
+.aprt h6{
+    font-weight: 800;
+    font-size: 17px;
+}
+.pro-d{
+    overflow-x: scroll;
+}
+
+.prod{
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0px 0px 7px rgb(215, 213, 213);
+    width: 18vw;
+    height: 60vh;
+}
+.prod:hover{
+    box-shadow: 3px 3px 10px rgb(128, 126, 126);
+}
+
+.prod img{
+    object-fit: contain;
+}
+
+.prod h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -10px;
+
+}
+
+/* official */
+
+
+.official{
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.of-store{
+    width: 90%;
+    margin: auto;
+}
+
+.of-store div{
+    height: 7vh;
+    background-color: #FBA100;
+    text-align: center;
+    padding-top: 10px;
+    font-weight:800;
+
+}
+
+/* item-display */
+
+.item{
+    width: 100vw;
+    margin-top: 20px;
+}
+.itm{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 7px;
+}
+.itm-d div{
+    width: 14vw;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fliers{
+    width: 100vw;
+    margin-top: 30px;
+}
+
+.first{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    height: 20vh;
+    box-shadow: 3px 3px 10px rgb(128, 126, 126);
+    border-radius: 10px;
+}
+.fir{
+    height: inherit;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.fir img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.second{
+   
+    margin: auto;
+    width: 90%;
+    gap: 6px;
+}
+
+.second div{
+    margin-top: 20px;
+    height: 28vh;
+    width: 48vw;
+}
+
+.second div img{
+    border-radius: 8px;
+}
+
+/* footer */
+
+.footer{
+    width: 100vw;
+    margin-top: 50px;
+    
+    background-color: #2E2E2E;
+}
+
+.foot{
+    margin: auto;
+    width: 90%;
+    color: #979797;
+    padding: 20px;
+    gap: 20px;
+}
+
+.foot:hover{
+    color: white;
+}
+
+.foo {
+    gap: 10px;
+}
+.foo .ite{
+    width: 27px;
+    height: 27px;
+    margin-top: 8px;
+    border-radius: 50px;
+    color: #2E2E2E;
+    font-size: 13px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+   
+
+.foo h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.foo p{
+    font-size: 13px;
+}
